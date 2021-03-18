@@ -1,0 +1,33 @@
+:root{
+    --primary:#1888ff;
+}
+
+.btn{
+    padding: 8px 20px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    font-size: 1.1rem;
+    color: #fff;
+    cursor: pointer;
+    background-color: var(--primary);
+}
+
+.btn:hover{
+    padding: 6px 18px;
+    transition: all 0.3s ease-out;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 4px;
+    border: 2px solid var(--primary);
+}
+
+@media screen and (max-width: 600px){
+    .btn{
+        padding: 8px 60px;  
+    }
+
+    .btn:hover{
+        padding: 6px 58px;
+    }
+}

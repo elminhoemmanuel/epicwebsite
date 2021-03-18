@@ -1,0 +1,55 @@
+.mobile-div{
+    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+    height: 100vh;
+    z-index: 50;
+    font-size: 1.1rem;
+    position: absolute;
+    top: 0;
+    transition:0.5s all ease-in;
+    color: white;
+}
+
+.open-menu{
+    width: 100%;
+}
+
+.close-menu{
+    width: 0;
+}
+
+.mobile-div a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.mobile-links,.mobile-btn{
+    padding: 5% 0;
+    text-align: center;
+}
+
+.mobile-links:hover{
+    background-color: #1888ff;
+}
+
+.close{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.close div{
+    padding: 5%;
+    cursor: pointer;
+}
+
+.close:hover{
+    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+}
+
+@media screen and (min-width: 769px){
+    .mobile-div{
+        display: none;
+    }
+}
