@@ -21,10 +21,10 @@
     text-decoration: none;
     color: white;
     display: block;
+    padding: 5% 0;
 }
 
 .mobile-links,.mobile-btn{
-    padding: 5% 0;
     text-align: center;
 }
 

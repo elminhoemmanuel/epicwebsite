@@ -33,6 +33,7 @@ const Navbar = () => {
                 <div className='mobile-links'>
                     <Link to='/services' className='nav-links' onClick={closeMobileMenu} >
                         Services
+                        
                     </Link>
                     
                 </div>

@@ -25,6 +25,7 @@
 @media screen and (max-width: 600px){
     .btn{
         padding: 8px 60px;  
+        width:80%;
     }
 
     .btn:hover{
